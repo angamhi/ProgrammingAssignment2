@@ -20,7 +20,7 @@ cacheSolve <- function(x, ...) {     ## Creating function for calculating and re
 
     inv_m <- x$getInver ()     ## Checking if there is a value of the inverse already
 if (!is.null(inv_m)) {                       
-         message("getting cached data")
+         message("getting cache data")
          return(inv_m)
      }                                   ##Returning value from cache
      mat <- x$get()              
